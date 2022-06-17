@@ -1,2 +1,2 @@
 # mess-cli
-Contenerized messaging CLI app running on FastAPI and Redis
+Containerized messaging CLI app running on FastAPI and Redis with Python client
