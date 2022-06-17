@@ -16,3 +16,11 @@ docker-compose up -d
 ```
 
 Client is by default set to connect to http://localhost:8000 - it can be changed by setting address in srv variable in mess-cli.py
+
+# Redis
+Users and messages are stored as Redis hashes, users as user:[username], messages are grouped into conversations as m:[user1]@[user2].
+Server uses SHA512 to store password hashes.
+Base can be browsed by using
+```
+docker exec -it [redis_name] redis-cli
+```
