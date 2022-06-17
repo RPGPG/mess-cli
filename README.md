@@ -8,4 +8,3 @@ Client usage:
 ./mess-cli.py -r or --register - create new account on server
 
 Client is by default set to connect to http://localhost:8000 - it can be changed by setting address in srv variable
-
